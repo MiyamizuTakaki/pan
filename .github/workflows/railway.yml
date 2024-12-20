@@ -23,7 +23,7 @@ jobs:
           tar -xvf cr.tar.gz
           mv cloudreve cr         
           echo "${{ secrets.CONFIG }}" > config.ini
-          RAILWAY_TOKEN=${{ secrets.RAILWAY_TOKEN }} railway up --service fd293f73-0443-4fde-ad87-a9ff99c44e1b
+          RAILWAY_TOKEN=${{ secrets.RAILWAY_TOKEN }} railway up --service 7a930254-4cd3-4722-a06c-9a19523ffa43
           
           
     
